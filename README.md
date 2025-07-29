@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -42,6 +41,24 @@
       padding: 20px;
       border-radius: 10px;
     }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
     footer {
       background-color: #333;
       color: white;
@@ -78,7 +95,7 @@
   <div class="section">
     <h2>Contact Us</h2>
     <div class="contact">
-      <form>
+      <form action="https://formspree.io/f/mnnzvrab" method="POST">
         <label for="name">Name:</label><br />
         <input type="text" id="name" name="name" required /><br /><br />
 
